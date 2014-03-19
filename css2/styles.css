@@ -1,0 +1,104 @@
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	color: #1d819b;
+}
+.style_grey {
+	color: #999;
+	font-family: Helvetica;
+	font-size: medium;
+	font-style: normal;
+}
+.style_black {
+	font-family: Helvetica;
+	font-size: medium;
+	font-style: normal;
+	color: #000;
+}
+.style_active_big {
+	font-family: Helvetica;
+	font-size: 30px;
+	font-style: normal;
+	color: #1d819b;
+	font-weight: bold;
+}
+.style_active_small {
+	font-family: Helvetica;
+	font-size: medium;
+	font-style: normal;
+	color: #1d819b;
+}
+.style_black_big {
+	font-family: Helvetica;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: bold;
+	color: #000;
+}
+.style_black_small {
+	font-family: Helvetica;
+	font-size: small;
+	font-style: normal;
+	color: #000;
+}
+.style_text_black {
+	font-family: Helvetica;
+	font-size: small;
+	font-style: normal;
+	color: #000;
+	font-weight: normal;
+}
+.style_small_grey_text {
+	font-family: Helvetica;
+	font-size: small;
+	font-style: normal;
+	color: #666;
+}
+
+
+
+.effeckt-caption {
+	width: 100%;
+	margin: 0px;
+	position: relative;
+	float: left;
+	overflow: hidden;
+}
+.effeckt-caption img {
+	width: 100%;
+	display: block;
+	-webkit-transition: 500ms;
+	-o-transition: 500ms;
+	transition: 500ms;
+}
+.effeckt-caption figcaption {
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 1rem;
+  position: absolute;
+  -webkit-transition: 500ms;
+  -o-transition: 500ms;
+  transition: 500ms;
+  width: 100%;
+}
+.effeckt-caption figcaption h3 {
+	font-family: Helvetica;
+	font-size: medium;
+	font-style: normal;
+}
+.effeckt-caption[data-effeckt-type="cover-fade"] figcaption {
+  top: 0;
+  left: 0;
+  height: 100%;
+  opacity: 0;
+}
+.effeckt-caption[data-effeckt-type="cover-fade"]:hover figcaption,
+.effeckt-caption[data-effeckt-type="cover-fade"]:active figcaption {
+  opacity: 1;
+}
+
